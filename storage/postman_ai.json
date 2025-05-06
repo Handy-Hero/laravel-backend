@@ -1,0 +1,526 @@
+{
+    "info": {
+      "name": "Service Management API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "description": "Complete API collection for Service Management System including admin, frontend, and web routes"
+    },
+    "item": [
+      {
+        "name": "Authentication",
+        "item": [
+          {
+            "name": "Register User",
+            "request": {
+              "method": "POST",
+              "header": [],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"name\": \"John Doe\",\n    \"email\": \"john@example.com\",\n    \"password\": \"password123\",\n    \"password_confirmation\": \"password123\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/register",
+                "host": ["{{base_url}}"],
+                "path": ["api", "register"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Login",
+            "request": {
+              "method": "POST",
+              "header": [],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"email\": \"john@example.com\",\n    \"password\": \"password123\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/login",
+                "host": ["{{base_url}}"],
+                "path": ["api", "login"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Forgot Password",
+            "request": {
+              "method": "POST",
+              "header": [],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"email\": \"john@example.com\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/forgot-password",
+                "host": ["{{base_url}}"],
+                "path": ["api", "forgot-password"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Logout",
+            "request": {
+              "method": "GET",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{auth_token}}"
+                }
+              ],
+              "url": {
+                "raw": "{{base_url}}/api/logout",
+                "host": ["{{base_url}}"],
+                "path": ["api", "logout"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Categories",
+        "item": [
+          {
+            "name": "Get Categories",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "{{base_url}}/api/category-list",
+                "host": ["{{base_url}}"],
+                "path": ["api", "category-list"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Create Category (Admin)",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{admin_token}}"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"name\": \"New Category\",\n    \"description\": \"Category description\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/category-save",
+                "host": ["{{base_url}}"],
+                "path": ["api", "category-save"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "item": [
+          {
+            "name": "Get Services",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "{{base_url}}/api/service-list",
+                "host": ["{{base_url}}"],
+                "path": ["api", "service-list"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Get Service Detail",
+            "request": {
+              "method": "POST",
+              "header": [],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"service_id\": 1\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/service-detail",
+                "host": ["{{base_url}}"],
+                "path": ["api", "service-detail"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Save Favourite Service",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{auth_token}}"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"service_id\": 1\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/save-favourite",
+                "host": ["{{base_url}}"],
+                "path": ["api", "save-favourite"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Bookings",
+        "item": [
+          {
+            "name": "Create Booking",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{auth_token}}"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"service_id\": 1,\n    \"provider_id\": 1,\n    \"booking_date\": \"2023-12-31\",\n    \"booking_time\": \"14:00\",\n    \"address\": \"123 Main St\",\n    \"notes\": \"Additional instructions\",\n    \"payment_method\": \"stripe\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/booking-save",
+                "host": ["{{base_url}}"],
+                "path": ["api", "booking-save"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Get Booking List",
+            "request": {
+              "method": "GET",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{auth_token}}"
+                }
+              ],
+              "url": {
+                "raw": "{{base_url}}/api/booking-list",
+                "host": ["{{base_url}}"],
+                "path": ["api", "booking-list"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Providers",
+        "item": [
+          {
+            "name": "Get Providers",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "{{base_url}}/api/provider-list",
+                "host": ["{{base_url}}"],
+                "path": ["api", "provider-list"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Create Provider (Admin)",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{admin_token}}"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"user_id\": 1,\n    \"business_name\": \"Provider Business\",\n    \"contact_number\": \"+1234567890\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/provider-save",
+                "host": ["{{base_url}}"],
+                "path": ["api", "provider-save"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Payments",
+        "item": [
+          {
+            "name": "Create Stripe Payment",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{auth_token}}"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"amount\": 100,\n    \"currency\": \"usd\",\n    \"description\": \"Service payment\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/create-stripe-payment",
+                "host": ["{{base_url}}"],
+                "path": ["api", "create-stripe-payment"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Save Payment",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{auth_token}}"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"booking_id\": 1,\n    \"amount\": 100,\n    \"payment_method\": \"stripe\",\n    \"transaction_id\": \"txn_123456789\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/api/save-payment",
+                "host": ["{{base_url}}"],
+                "path": ["api", "save-payment"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "item": [
+          {
+            "name": "Get Landing Page Data",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "{{base_url}}/api/landing-page-list",
+                "host": ["{{base_url}}"],
+                "path": ["api", "landing-page-list"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Get Sliders",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "{{base_url}}/api/slider-list",
+                "host": ["{{base_url}}"],
+                "path": ["api", "slider-list"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Admin",
+        "item": [
+          {
+            "name": "Admin Dashboard",
+            "request": {
+              "method": "GET",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{admin_token}}"
+                }
+              ],
+              "url": {
+                "raw": "{{base_url}}/api/admin-dashboard",
+                "host": ["{{base_url}}"],
+                "path": ["api", "admin-dashboard"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Get All Users",
+            "request": {
+              "method": "GET",
+              "header": [
+                {
+                  "key": "Authorization",
+                  "value": "Bearer {{admin_token}}"
+                }
+              ],
+              "url": {
+                "raw": "{{base_url}}/api/get-user-list",
+                "host": ["{{base_url}}"],
+                "path": ["api", "get-user-list"]
+              }
+            },
+            "response": []
+          }
+        ]
+      },
+      {
+        "name": "Web Routes",
+        "item": [
+          {
+            "name": "Home Page",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "{{base_url}}/",
+                "host": ["{{base_url}}"],
+                "path": [""]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Login Page",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "{{base_url}}/login-page",
+                "host": ["{{base_url}}"],
+                "path": ["login-page"]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "User Login",
+            "request": {
+              "method": "POST",
+              "header": [],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"password123\"\n}",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              },
+              "url": {
+                "raw": "{{base_url}}/user-login",
+                "host": ["{{base_url}}"],
+                "path": ["user-login"]
+              }
+            },
+            "response": []
+          }
+        ]
+      }
+    ],
+    "variable": [
+      {
+        "key": "base_url",
+        "value": "http://localhost:8000",
+        "type": "string"
+      },
+      {
+        "key": "auth_token",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "admin_token",
+        "value": "",
+        "type": "string"
+      }
+    ],
+    "event": [
+      {
+        "listen": "prerequest",
+        "script": {
+          "type": "text/javascript",
+          "exec": [
+            ""
+          ]
+        }
+      },
+      {
+        "listen": "test",
+        "script": {
+          "type": "text/javascript",
+          "exec": [
+            ""
+          ]
+        }
+      }
+    ]
+  }

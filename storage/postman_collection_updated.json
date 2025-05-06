@@ -1,0 +1,1799 @@
+{
+  "info": {
+    "name": "API Collection",
+    "description": "Collection of all API endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Admin API",
+      "item": [
+        {
+          "name": "Get Admin Dashboard",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/admin-dashboard",
+              "host": ["{{base_url}}"],
+              "path": ["admin-dashboard"]
+            }
+          }
+        },
+        {
+          "name": "Save Category",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/category-save",
+              "host": ["{{base_url}}"],
+              "path": ["category-save"]
+            }
+          }
+        },
+        {
+          "name": "Delete Category",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/category-delete/{{id}}",
+              "host": ["{{base_url}}"],
+              "path": ["category-delete", "{{id}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-category-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-category-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-service-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-service-list"]
+            }
+          }
+        },
+        {
+          "name": "Delete Service",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/service-delete/{{id}}",
+              "host": ["{{base_url}}"],
+              "path": ["service-delete", "{{id}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-subcategory-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-subcategory-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Coupon List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-coupon-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-coupon-list"]
+            }
+          }
+        },
+        {
+          "name": "Get User List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-user-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-user-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Ratings List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-ratings-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-ratings-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Payout List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-handyman-payout-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-handyman-payout-list"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "API",
+      "item": [
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-list",
+              "host": ["{{base_url}}"],
+              "path": ["category-list"]
+            }
+          }
+        },
+        {
+          "name": "User Registration",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/register",
+              "host": ["{{base_url}}"],
+              "path": ["register"]
+            }
+          }
+        },
+        {
+          "name": "User Login",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/login",
+              "host": ["{{base_url}}"],
+              "path": ["login"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-list",
+              "host": ["{{base_url}}"],
+              "path": ["blog-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-list",
+              "host": ["{{base_url}}"],
+              "path": ["service-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/subcategory-list",
+              "host": ["{{base_url}}"],
+              "path": ["subcategory-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Type List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/type-list",
+              "host": ["{{base_url}}"],
+              "path": ["type-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Landing Page List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/landing-page-list",
+              "host": ["{{base_url}}"],
+              "path": ["landing-page-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog Detail",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/blog-detail",
+              "host": ["{{base_url}}"],
+              "path": ["blog-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get Country List",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/country-list",
+              "host": ["{{base_url}}"],
+              "path": ["country-list"]
+            }
+          }
+        },
+        {
+          "name": "Get State List",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/state-list",
+              "host": ["{{base_url}}"],
+              "path": ["state-list"]
+            }
+          }
+        },
+        {
+          "name": "Get City List",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/city-list",
+              "host": ["{{base_url}}"],
+              "path": ["city-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Search List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/search-list",
+              "host": ["{{base_url}}"],
+              "path": ["search-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Slider List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/slider-list",
+              "host": ["{{base_url}}"],
+              "path": ["slider-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Top Rated Service",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/top-rated-service",
+              "host": ["{{base_url}}"],
+              "path": ["top-rated-service"]
+            }
+          }
+        },
+        {
+          "name": "Get Coupon List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/coupon-list",
+              "host": ["{{base_url}}"],
+              "path": ["coupon-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Firebase Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/firebase-detail",
+              "host": ["{{base_url}}"],
+              "path": ["firebase-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get Dashboard Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/dashboard-detail",
+              "host": ["{{base_url}}"],
+              "path": ["dashboard-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Rating List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-rating-list",
+              "host": ["{{base_url}}"],
+              "path": ["service-rating-list"]
+            }
+          }
+        },
+        {
+          "name": "Get User Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/user-detail",
+              "host": ["{{base_url}}"],
+              "path": ["user-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get User List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/user-list",
+              "host": ["{{base_url}}"],
+              "path": ["user-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking Status",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-status",
+              "host": ["{{base_url}}"],
+              "path": ["booking-status"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Reviews",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/handyman-reviews",
+              "host": ["{{base_url}}"],
+              "path": ["handyman-reviews"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Reviews",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/service-reviews",
+              "host": ["{{base_url}}"],
+              "path": ["service-reviews"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job Status",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/post-job-status",
+              "host": ["{{base_url}}"],
+              "path": ["post-job-status"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "item": [
+        {
+          "name": "Get Home Page",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/",
+              "host": ["{{base_url}}"],
+              "path": [""]
+            }
+          }
+        },
+        {
+          "name": "User Login",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/user-login",
+              "host": ["{{base_url}}"],
+              "path": ["user-login"]
+            }
+          }
+        },
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-list",
+              "host": ["{{base_url}}"],
+              "path": ["category-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-list",
+              "host": ["{{base_url}}"],
+              "path": ["blog-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/subcategory-list",
+              "host": ["{{base_url}}"],
+              "path": ["subcategory-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-list",
+              "host": ["{{base_url}}"],
+              "path": ["service-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/provider-list",
+              "host": ["{{base_url}}"],
+              "path": ["provider-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Category Details",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-details/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["category-details", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog Details",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-details/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["blog-details", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/provider-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["provider-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/handyman-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["handyman-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["service-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Privacy Policy",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/privacy-policy",
+              "host": ["{{base_url}}"],
+              "path": ["privacy-policy"]
+            }
+          }
+        },
+        {
+          "name": "Get Term Conditions",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/term-conditions",
+              "host": ["{{base_url}}"],
+              "path": ["term-conditions"]
+            }
+          }
+        },
+        {
+          "name": "Get About Us",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/about-us",
+              "host": ["{{base_url}}"],
+              "path": ["about-us"]
+            }
+          }
+        },
+        {
+          "name": "Get Refund Policy",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/refund-policy",
+              "host": ["{{base_url}}"],
+              "path": ["refund-policy"]
+            }
+          }
+        },
+        {
+          "name": "Get Help Support",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/help-support",
+              "host": ["{{base_url}}"],
+              "path": ["help-support"]
+            }
+          }
+        },
+        {
+          "name": "Get Data Deletion Request",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/data-deletion-request",
+              "host": ["{{base_url}}"],
+              "path": ["data-deletion-request"]
+            }
+          }
+        },
+        {
+          "name": "Get Favourite Service",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/favourite-service",
+              "host": ["{{base_url}}"],
+              "path": ["favourite-service"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Packages",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-packages",
+              "host": ["{{base_url}}"],
+              "path": ["service-packages"]
+            }
+          }
+        },
+        {
+          "name": "Get Book Service",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/book-service",
+              "host": ["{{base_url}}"],
+              "path": ["book-service"]
+            }
+          }
+        },
+        {
+          "name": "Get Rating All",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/rating-all",
+              "host": ["{{base_url}}"],
+              "path": ["rating-all"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["booking-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Helpdesk List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/helpdesk-list",
+              "host": ["{{base_url}}"],
+              "path": ["helpdesk-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Helpdesk Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/helpdesk-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["helpdesk-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Helpdesk Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/helpdesk-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["helpdesk-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-list",
+              "host": ["{{base_url}}"],
+              "path": ["booking-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/post-job-list",
+              "host": ["{{base_url}}"],
+              "path": ["post-job-list"]
+            }
+          }
+        },
+        {
+          "name": "Save Favourite",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/save-favourite",
+              "host": ["{{base_url}}"],
+              "path": ["save-favourite"]
+            }
+          }
+        },
+        {
+          "name": "Delete Favourite",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/delete-favourite",
+              "host": ["{{base_url}}"],
+              "path": ["delete-favourite"]
+            }
+          }
+        },
+        {
+          "name": "Save Booking Rating",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/save-booking-rating",
+              "host": ["{{base_url}}"],
+              "path": ["save-booking-rating"]
+            }
+          }
+        },
+        {
+          "name": "Save Recently Viewed",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/save-recently-viewed/{serviceId}",
+              "host": ["{{base_url}}"],
+              "path": ["save-recently-viewed", "{serviceId}"]
+            }
+          }
+        },
+        {
+          "name": "Get Recently Viewed",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-recently-viewed",
+              "host": ["{{base_url}}"],
+              "path": ["get-recently-viewed"]
+            }
+          }
+        },
+        {
+          "name": "Get Category Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["category-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/subcategory-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["subcategory-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["service-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["blog-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/provider-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["provider-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["booking-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/post-job-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["post-job-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Favourite Service Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/favouriteservice-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["favouriteservice-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Rating Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/rating-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["rating-datatable"]
+            }
+          }
+        },
+        {
+          "name": "User Subscribe",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/user-subscribe",
+              "host": ["{{base_url}}"],
+              "path": ["user-subscribe"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+Now, I will save this complete Postman collection to the `storage/postman_collection_updated.json` file.
+
+<create_file>
+<path>storage/postman_collection_updated.json</path>
+<content>
+{
+  "info": {
+    "name": "API Collection",
+    "description": "Collection of all API endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Admin API",
+      "item": [
+        {
+          "name": "Get Admin Dashboard",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/admin-dashboard",
+              "host": ["{{base_url}}"],
+              "path": ["admin-dashboard"]
+            }
+          }
+        },
+        {
+          "name": "Save Category",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/category-save",
+              "host": ["{{base_url}}"],
+              "path": ["category-save"]
+            }
+          }
+        },
+        {
+          "name": "Delete Category",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/category-delete/{{id}}",
+              "host": ["{{base_url}}"],
+              "path": ["category-delete", "{{id}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-category-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-category-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-service-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-service-list"]
+            }
+          }
+        },
+        {
+          "name": "Delete Service",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/service-delete/{{id}}",
+              "host": ["{{base_url}}"],
+              "path": ["service-delete", "{{id}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-subcategory-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-subcategory-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Coupon List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-coupon-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-coupon-list"]
+            }
+          }
+        },
+        {
+          "name": "Get User List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-user-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-user-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Ratings List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-ratings-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-ratings-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Payout List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-handyman-payout-list",
+              "host": ["{{base_url}}"],
+              "path": ["get-handyman-payout-list"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "API",
+      "item": [
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-list",
+              "host": ["{{base_url}}"],
+              "path": ["category-list"]
+            }
+          }
+        },
+        {
+          "name": "User Registration",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/register",
+              "host": ["{{base_url}}"],
+              "path": ["register"]
+            }
+          }
+        },
+        {
+          "name": "User Login",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/login",
+              "host": ["{{base_url}}"],
+              "path": ["login"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-list",
+              "host": ["{{base_url}}"],
+              "path": ["blog-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-list",
+              "host": ["{{base_url}}"],
+              "path": ["service-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/subcategory-list",
+              "host": ["{{base_url}}"],
+              "path": ["subcategory-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Type List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/type-list",
+              "host": ["{{base_url}}"],
+              "path": ["type-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Landing Page List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/landing-page-list",
+              "host": ["{{base_url}}"],
+              "path": ["landing-page-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog Detail",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/blog-detail",
+              "host": ["{{base_url}}"],
+              "path": ["blog-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get Country List",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/country-list",
+              "host": ["{{base_url}}"],
+              "path": ["country-list"]
+            }
+          }
+        },
+        {
+          "name": "Get State List",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/state-list",
+              "host": ["{{base_url}}"],
+              "path": ["state-list"]
+            }
+          }
+        },
+        {
+          "name": "Get City List",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/city-list",
+              "host": ["{{base_url}}"],
+              "path": ["city-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Search List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/search-list",
+              "host": ["{{base_url}}"],
+              "path": ["search-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Slider List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/slider-list",
+              "host": ["{{base_url}}"],
+              "path": ["slider-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Top Rated Service",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/top-rated-service",
+              "host": ["{{base_url}}"],
+              "path": ["top-rated-service"]
+            }
+          }
+        },
+        {
+          "name": "Get Coupon List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/coupon-list",
+              "host": ["{{base_url}}"],
+              "path": ["coupon-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Firebase Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/firebase-detail",
+              "host": ["{{base_url}}"],
+              "path": ["firebase-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get Dashboard Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/dashboard-detail",
+              "host": ["{{base_url}}"],
+              "path": ["dashboard-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Rating List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-rating-list",
+              "host": ["{{base_url}}"],
+              "path": ["service-rating-list"]
+            }
+          }
+        },
+        {
+          "name": "Get User Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/user-detail",
+              "host": ["{{base_url}}"],
+              "path": ["user-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get User List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/user-list",
+              "host": ["{{base_url}}"],
+              "path": ["user-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking Status",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-status",
+              "host": ["{{base_url}}"],
+              "path": ["booking-status"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Reviews",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/handyman-reviews",
+              "host": ["{{base_url}}"],
+              "path": ["handyman-reviews"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Reviews",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/service-reviews",
+              "host": ["{{base_url}}"],
+              "path": ["service-reviews"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job Status",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/post-job-status",
+              "host": ["{{base_url}}"],
+              "path": ["post-job-status"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "item": [
+        {
+          "name": "Get Home Page",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/",
+              "host": ["{{base_url}}"],
+              "path": [""]
+            }
+          }
+        },
+        {
+          "name": "User Login",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/user-login",
+              "host": ["{{base_url}}"],
+              "path": ["user-login"]
+            }
+          }
+        },
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-list",
+              "host": ["{{base_url}}"],
+              "path": ["category-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-list",
+              "host": ["{{base_url}}"],
+              "path": ["blog-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/subcategory-list",
+              "host": ["{{base_url}}"],
+              "path": ["subcategory-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-list",
+              "host": ["{{base_url}}"],
+              "path": ["service-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/provider-list",
+              "host": ["{{base_url}}"],
+              "path": ["provider-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Category Details",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-details/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["category-details", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog Details",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-details/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["blog-details", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/provider-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["provider-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/handyman-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["handyman-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["service-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Privacy Policy",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/privacy-policy",
+              "host": ["{{base_url}}"],
+              "path": ["privacy-policy"]
+            }
+          }
+        },
+        {
+          "name": "Get Term Conditions",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/term-conditions",
+              "host": ["{{base_url}}"],
+              "path": ["term-conditions"]
+            }
+          }
+        },
+        {
+          "name": "Get About Us",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/about-us",
+              "host": ["{{base_url}}"],
+              "path": ["about-us"]
+            }
+          }
+        },
+        {
+          "name": "Get Refund Policy",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/refund-policy",
+              "host": ["{{base_url}}"],
+              "path": ["refund-policy"]
+            }
+          }
+        },
+        {
+          "name": "Get Help Support",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/help-support",
+              "host": ["{{base_url}}"],
+              "path": ["help-support"]
+            }
+          }
+        },
+        {
+          "name": "Get Data Deletion Request",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/data-deletion-request",
+              "host": ["{{base_url}}"],
+              "path": ["data-deletion-request"]
+            }
+          }
+        },
+        {
+          "name": "Get Favourite Service",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/favourite-service",
+              "host": ["{{base_url}}"],
+              "path": ["favourite-service"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Packages",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-packages",
+              "host": ["{{base_url}}"],
+              "path": ["service-packages"]
+            }
+          }
+        },
+        {
+          "name": "Get Book Service",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/book-service",
+              "host": ["{{base_url}}"],
+              "path": ["book-service"]
+            }
+          }
+        },
+        {
+          "name": "Get Rating All",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/rating-all",
+              "host": ["{{base_url}}"],
+              "path": ["rating-all"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["booking-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Helpdesk List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/helpdesk-list",
+              "host": ["{{base_url}}"],
+              "path": ["helpdesk-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Helpdesk Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/helpdesk-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["helpdesk-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Helpdesk Detail",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/helpdesk-detail/{id}",
+              "host": ["{{base_url}}"],
+              "path": ["helpdesk-detail", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-list",
+              "host": ["{{base_url}}"],
+              "path": ["booking-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/post-job-list",
+              "host": ["{{base_url}}"],
+              "path": ["post-job-list"]
+            }
+          }
+        },
+        {
+          "name": "Save Favourite",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/save-favourite",
+              "host": ["{{base_url}}"],
+              "path": ["save-favourite"]
+            }
+          }
+        },
+        {
+          "name": "Delete Favourite",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/delete-favourite",
+              "host": ["{{base_url}}"],
+              "path": ["delete-favourite"]
+            }
+          }
+        },
+        {
+          "name": "Save Booking Rating",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/save-booking-rating",
+              "host": ["{{base_url}}"],
+              "path": ["save-booking-rating"]
+            }
+          }
+        },
+        {
+          "name": "Save Recently Viewed",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/save-recently-viewed/{serviceId}",
+              "host": ["{{base_url}}"],
+              "path": ["save-recently-viewed", "{serviceId}"]
+            }
+          }
+        },
+        {
+          "name": "Get Recently Viewed",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/get-recently-viewed",
+              "host": ["{{base_url}}"],
+              "path": ["get-recently-viewed"]
+            }
+          }
+        },
+        {
+          "name": "Get Category Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/category-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["category-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/subcategory-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["subcategory-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/service-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["service-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/blog-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["blog-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/provider-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["provider-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/booking-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["booking-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/post-job-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["post-job-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Favourite Service Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/favouriteservice-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["favouriteservice-datatable"]
+            }
+          }
+        },
+        {
+          "name": "Get Rating Datatable",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/rating-datatable",
+              "host": ["{{base_url}}"],
+              "path": ["rating-datatable"]
+            }
+          }
+        },
+        {
+          "name": "User Subscribe",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/user-subscribe",
+              "host": ["{{base_url}}"],
+              "path": ["user-subscribe"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+Now, I will save this complete Postman collection to the `storage/postman_collection_updated.json` file.
+
+<create_file>
+<path>storage/postman_collection

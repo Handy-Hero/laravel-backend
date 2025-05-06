@@ -1,0 +1,1481 @@
+[
+    {
+        "path": "\/api\/user",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "Closure"
+    },
+    {
+        "path": "\/api\/admin-dashboard",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\DashboardController@adminDashboard"
+    },
+    {
+        "path": "\/api\/category-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CategoryController@store"
+    },
+    {
+        "path": "\/api\/category-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CategoryController@destroy"
+    },
+    {
+        "path": "\/api\/category-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CategoryController@action"
+    },
+    {
+        "path": "\/api\/get-category-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CategoryController@getCategoryList"
+    },
+    {
+        "path": "\/api\/get-service-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@getServiceList"
+    },
+    {
+        "path": "\/api\/service-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServiceController@destroy"
+    },
+    {
+        "path": "\/api\/service-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServiceController@action"
+    },
+    {
+        "path": "\/api\/get-service-detail",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@getServiceDetail"
+    },
+    {
+        "path": "\/api\/subcategory-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\SubCategoryController@store"
+    },
+    {
+        "path": "\/api\/subcategory-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\SubCategoryController@destroy"
+    },
+    {
+        "path": "\/api\/subcategory-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\SubCategoryController@action"
+    },
+    {
+        "path": "\/api\/get-subcategory-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\SubCategoryController@getSubCategoryList"
+    },
+    {
+        "path": "\/api\/provider-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderController@store"
+    },
+    {
+        "path": "\/api\/provider-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderController@destroy"
+    },
+    {
+        "path": "\/api\/provider-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderController@action"
+    },
+    {
+        "path": "\/api\/providertype-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderTypeController@store"
+    },
+    {
+        "path": "\/api\/providertype-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderTypeController@destroy"
+    },
+    {
+        "path": "\/api\/providertype-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderTypeController@action"
+    },
+    {
+        "path": "\/api\/provideraddress-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderAddressMappingController@store"
+    },
+    {
+        "path": "\/api\/provideraddress-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderAddressMappingController@destroy"
+    },
+    {
+        "path": "\/api\/provideraddress-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderAddressMappingController@action"
+    },
+    {
+        "path": "\/api\/providerdocument-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderDocumentController@store"
+    },
+    {
+        "path": "\/api\/providerdocument-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderDocumentController@destroy"
+    },
+    {
+        "path": "\/api\/providerdocument-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderDocumentController@action"
+    },
+    {
+        "path": "\/api\/providerpayout-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderPayoutController@store"
+    },
+    {
+        "path": "\/api\/coupon-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CouponController@store"
+    },
+    {
+        "path": "\/api\/coupon-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CouponController@destroy"
+    },
+    {
+        "path": "\/api\/coupon-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CouponController@action"
+    },
+    {
+        "path": "\/api\/get-coupon-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getCouponList"
+    },
+    {
+        "path": "\/api\/get-coupon-service",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getCouponService"
+    },
+    {
+        "path": "\/api\/document-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\DocumentsController@store"
+    },
+    {
+        "path": "\/api\/document-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\DocumentsController@destroy"
+    },
+    {
+        "path": "\/api\/document-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\DocumentsController@action"
+    },
+    {
+        "path": "\/api\/earning-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\EarningController@setEarningData"
+    },
+    {
+        "path": "\/api\/save-earning-setting",
+        "methods": [
+            "POST"
+        ],
+        "action": "SettingController@saveEarningTypeSetting"
+    },
+    {
+        "path": "\/api\/save-userdashboard-setting",
+        "methods": [
+            "POST"
+        ],
+        "action": "SettingController@saveUserDashboardTypeSetting"
+    },
+    {
+        "path": "\/api\/get-type-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getTypeList"
+    },
+    {
+        "path": "\/api\/add-user",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@addUser"
+    },
+    {
+        "path": "\/api\/edit-user",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@editUser"
+    },
+    {
+        "path": "\/api\/get-user-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@userList"
+    },
+    {
+        "path": "\/api\/handymantype-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanTypeController@store"
+    },
+    {
+        "path": "\/api\/handymantype-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanTypeController@destroy"
+    },
+    {
+        "path": "\/api\/handymantype-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanTypeController@action"
+    },
+    {
+        "path": "\/api\/user-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CustomerController@destroy"
+    },
+    {
+        "path": "\/api\/user-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\CustomerController@action"
+    },
+    {
+        "path": "\/api\/handyman-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanController@destroy"
+    },
+    {
+        "path": "\/api\/handyman-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanController@action"
+    },
+    {
+        "path": "\/api\/send-push-notification",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\SettingController@sendPushNotification"
+    },
+    {
+        "path": "\/api\/servicepackage-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServicePackageController@store"
+    },
+    {
+        "path": "\/api\/servicepackage-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServicePackageController@getServicePackageList"
+    },
+    {
+        "path": "\/api\/servicepackage-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServicePackageController@destroy"
+    },
+    {
+        "path": "\/api\/tax-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\TaxController@store"
+    },
+    {
+        "path": "\/api\/tax-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\TaxController@destroy"
+    },
+    {
+        "path": "\/api\/get-tax-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getTaxList"
+    },
+    {
+        "path": "\/api\/get-ratings-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@getRatingsList"
+    },
+    {
+        "path": "\/api\/rating-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@deleteRatingsList"
+    },
+    {
+        "path": "\/api\/wallet-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\WalletController@getwalletlist"
+    },
+    {
+        "path": "\/api\/wallet-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\WalletController@store"
+    },
+    {
+        "path": "\/api\/get-handyman-payout-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PayoutController@handymanPayoutList"
+    },
+    {
+        "path": "\/api\/handyman-payout-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanPayoutController@destroy"
+    },
+    {
+        "path": "\/api\/get-post-job-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PostJobRequestController@getPostRequestList"
+    },
+    {
+        "path": "\/api\/delete-get-post-job\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\PostJobRequestController@destroy"
+    },
+    {
+        "path": "\/api\/get-payment-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@paymentList"
+    },
+    {
+        "path": "\/api\/wallet-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\WalletController@destroy"
+    },
+    {
+        "path": "\/api\/get-slider-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\SliderController@getSliderList"
+    },
+    {
+        "path": "\/api\/slider-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\SliderController@store"
+    },
+    {
+        "path": "\/api\/get-handymanrating-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@getHandymanRatingList"
+    },
+    {
+        "path": "\/api\/handymanrating-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanRatingController@destroy"
+    },
+    {
+        "path": "\/api\/get-user-ratings-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@getUserRatings"
+    },
+    {
+        "path": "\/api\/user-ratings-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BookingRatingController@destroy"
+    },
+    {
+        "path": "\/api\/get-cash-payment-history",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@getCashPaymentHistory"
+    },
+    {
+        "path": "\/api\/get-cash-payment",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@getCashPayment"
+    },
+    {
+        "path": "\/api\/cash-payment-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\PaymentController@destroy"
+    },
+    {
+        "path": "\/api\/category-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CategoryController@getCategoryList"
+    },
+    {
+        "path": "\/api\/subcategory-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\SubCategoryController@getSubCategoryList"
+    },
+    {
+        "path": "\/api\/service-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@getServiceList"
+    },
+    {
+        "path": "\/api\/type-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getTypeList"
+    },
+    {
+        "path": "\/api\/blog-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BlogController@getBlogList"
+    },
+    {
+        "path": "\/api\/blog-detail",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BlogController@getBlogDetail"
+    },
+    {
+        "path": "\/api\/landing-page-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\FrontendSettingController@getLandingPageSetting"
+    },
+    {
+        "path": "\/api\/country-list",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getCountryList"
+    },
+    {
+        "path": "\/api\/state-list",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getStateList"
+    },
+    {
+        "path": "\/api\/city-list",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getCityList"
+    },
+    {
+        "path": "\/api\/search-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getSearchList"
+    },
+    {
+        "path": "\/api\/slider-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\SliderController@getSliderList"
+    },
+    {
+        "path": "\/api\/top-rated-service",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@getTopRatedService"
+    },
+    {
+        "path": "\/api\/coupon-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CouponController@getCouponList"
+    },
+    {
+        "path": "\/api\/configurations",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\DashboardController@configurations"
+    },
+    {
+        "path": "\/api\/firebase-detail",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\DashboardController@firebaseDetails"
+    },
+    {
+        "path": "\/api\/register",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@register"
+    },
+    {
+        "path": "\/api\/check-username",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@checkUsername"
+    },
+    {
+        "path": "\/api\/login",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@login"
+    },
+    {
+        "path": "\/api\/forgot-password",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@forgotPassword"
+    },
+    {
+        "path": "\/api\/social-login",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@socialLogin"
+    },
+    {
+        "path": "\/api\/contact-us",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@contactUs"
+    },
+    {
+        "path": "\/api\/user-email-verify",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@verify"
+    },
+    {
+        "path": "\/api\/dashboard-detail",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\DashboardController@dashboardDetail"
+    },
+    {
+        "path": "\/api\/service-rating-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@getServiceRating"
+    },
+    {
+        "path": "\/api\/user-detail",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@userDetail"
+    },
+    {
+        "path": "\/api\/service-detail",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@getServiceDetail"
+    },
+    {
+        "path": "\/api\/user-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@userList"
+    },
+    {
+        "path": "\/api\/booking-status",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@bookingStatus"
+    },
+    {
+        "path": "\/api\/handyman-reviews",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@handymanReviewsList"
+    },
+    {
+        "path": "\/api\/service-reviews",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@serviceReviewsList"
+    },
+    {
+        "path": "\/api\/post-job-status",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PostJobRequestController@postRequestStatus"
+    },
+    {
+        "path": "\/api\/service-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServiceController@store"
+    },
+    {
+        "path": "\/api\/booking-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BookingController@store"
+    },
+    {
+        "path": "\/api\/get-payment-method",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BookingController@getPaymentMethod"
+    },
+    {
+        "path": "\/api\/create-stripe-payment",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BookingController@createStripePayment"
+    },
+    {
+        "path": "\/api\/booking-update",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@bookingUpdate"
+    },
+    {
+        "path": "\/api\/provider-dashboard",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\DashboardController@providerDashboard"
+    },
+    {
+        "path": "\/api\/booking-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@getBookingList"
+    },
+    {
+        "path": "\/api\/booking-detail",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@getBookingDetail"
+    },
+    {
+        "path": "\/api\/save-booking-rating",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@saveBookingRating"
+    },
+    {
+        "path": "\/api\/delete-booking-rating",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@deleteBookingRating"
+    },
+    {
+        "path": "\/api\/get-user-ratings",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@getUserRatings"
+    },
+    {
+        "path": "\/api\/save-favourite",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@saveFavouriteService"
+    },
+    {
+        "path": "\/api\/delete-favourite",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@deleteFavouriteService"
+    },
+    {
+        "path": "\/api\/user-favourite-service",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceController@getUserFavouriteService"
+    },
+    {
+        "path": "\/api\/booking-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@action"
+    },
+    {
+        "path": "\/api\/booking-assigned",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BookingController@bookingAssigned"
+    },
+    {
+        "path": "\/api\/user-update-status",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@userStatusUpdate"
+    },
+    {
+        "path": "\/api\/change-password",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@changePassword"
+    },
+    {
+        "path": "\/api\/update-profile",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@updateProfile"
+    },
+    {
+        "path": "\/api\/notification-list",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\NotificationController@notificationList"
+    },
+    {
+        "path": "\/api\/remove-file",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HomeController@removeFile"
+    },
+    {
+        "path": "\/api\/logout",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@logout"
+    },
+    {
+        "path": "\/api\/save-payment",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@savePayment"
+    },
+    {
+        "path": "\/api\/payment-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@paymentList"
+    },
+    {
+        "path": "\/api\/transfer-payment",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@transferPayment"
+    },
+    {
+        "path": "\/api\/payment-history",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@paymentHistory"
+    },
+    {
+        "path": "\/api\/cash-detail",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@paymentDetail"
+    },
+    {
+        "path": "\/api\/user-bank-detail",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getBankList"
+    },
+    {
+        "path": "\/api\/default-bank",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@defaultBank"
+    },
+    {
+        "path": "\/api\/save-bank",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BankController@store"
+    },
+    {
+        "path": "\/api\/delete-bank\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BankController@destroy"
+    },
+    {
+        "path": "\/api\/provider-payout",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderPayoutController@store"
+    },
+    {
+        "path": "\/api\/handyman-earning-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\EarningController@handymanEarningData"
+    },
+    {
+        "path": "\/api\/handyman-payout-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HandymanPayoutController@store"
+    },
+    {
+        "path": "\/api\/save-provideraddress",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderAddressMappingController@store"
+    },
+    {
+        "path": "\/api\/provideraddress-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ProviderAddressMappingController@getProviderAddressList"
+    },
+    {
+        "path": "\/api\/save-handyman-rating",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@saveHandymanRating"
+    },
+    {
+        "path": "\/api\/delete-handyman-rating",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@deleteHandymanRating"
+    },
+    {
+        "path": "\/api\/document-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\DocumentsController@getDocumentList"
+    },
+    {
+        "path": "\/api\/provider-document-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ProviderDocumentController@getProviderDocumentList"
+    },
+    {
+        "path": "\/api\/provider-document-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderDocumentController@store"
+    },
+    {
+        "path": "\/api\/provider-document-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderDocumentController@destroy"
+    },
+    {
+        "path": "\/api\/provider-document-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderDocumentController@action"
+    },
+    {
+        "path": "\/api\/tax-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@getProviderTax"
+    },
+    {
+        "path": "\/api\/handyman-dashboard",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\DashboardController@handymanDashboard"
+    },
+    {
+        "path": "\/api\/customer-booking-rating",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@bookingRatingByCustomer"
+    },
+    {
+        "path": "\/api\/provider-payout-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PayoutController@providerPayoutList"
+    },
+    {
+        "path": "\/api\/handyman-payout-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PayoutController@handymanPayoutList"
+    },
+    {
+        "path": "\/api\/plan-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PlanController@planList"
+    },
+    {
+        "path": "\/api\/save-subscription",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\SubscriptionController@providerSubscribe"
+    },
+    {
+        "path": "\/api\/cancel-subscription",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\SubscriptionController@cancelSubscription"
+    },
+    {
+        "path": "\/api\/subscription-history",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\SubscriptionController@getHistory"
+    },
+    {
+        "path": "\/api\/wallet-history",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\WalletController@getHistory"
+    },
+    {
+        "path": "\/api\/wallet-top-up",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\WalletController@walletTopup"
+    },
+    {
+        "path": "\/api\/save-service-proof",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@uploadServiceProof"
+    },
+    {
+        "path": "\/api\/handyman-update-available-status",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@handymanAvailable"
+    },
+    {
+        "path": "\/api\/delete-user-account",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@deleteUserAccount"
+    },
+    {
+        "path": "\/api\/delete-account",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@deleteAccount"
+    },
+    {
+        "path": "\/api\/save-post-job",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\PostJobRequestController@store"
+    },
+    {
+        "path": "\/api\/post-job-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\PostJobRequestController@destroy"
+    },
+    {
+        "path": "\/api\/get-post-job",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PostJobRequestController@getPostRequestList"
+    },
+    {
+        "path": "\/api\/get-post-job-detail",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PostJobRequestController@getPostRequestDetail"
+    },
+    {
+        "path": "\/api\/save-bid",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\PostJobBidController@store"
+    },
+    {
+        "path": "\/api\/get-bid-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PostJobBidController@getPostBidList"
+    },
+    {
+        "path": "\/api\/save-provider-slot",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ProviderSlotController@store"
+    },
+    {
+        "path": "\/api\/get-provider-slot",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ProviderSlotController@getProviderSlot"
+    },
+    {
+        "path": "\/api\/package-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServicePackageController@store"
+    },
+    {
+        "path": "\/api\/package-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServicePackageController@getServicePackageList"
+    },
+    {
+        "path": "\/api\/package-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServicePackageController@destroy"
+    },
+    {
+        "path": "\/api\/blog-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BlogController@store"
+    },
+    {
+        "path": "\/api\/blog-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BlogController@destroy"
+    },
+    {
+        "path": "\/api\/blog-action",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\BlogController@action"
+    },
+    {
+        "path": "\/api\/save-favourite-provider",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ProviderFavouriteController@saveFavouriteProvider"
+    },
+    {
+        "path": "\/api\/delete-favourite-provider",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ProviderFavouriteController@deleteFavouriteProvider"
+    },
+    {
+        "path": "\/api\/user-favourite-provider",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ProviderFavouriteController@getUserFavouriteProvider"
+    },
+    {
+        "path": "\/api\/download-invoice",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\CommanController@downloadInvoice"
+    },
+    {
+        "path": "\/api\/user-wallet-balance",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@userWalletBalance"
+    },
+    {
+        "path": "\/api\/get-recently-viewed",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\FrontendSettingController@recentlyViewedGet"
+    },
+    {
+        "path": "\/api\/service-addon-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServiceAddonController@store"
+    },
+    {
+        "path": "\/api\/service-addon-delete\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\ServiceAddonController@destroy"
+    },
+    {
+        "path": "\/api\/service-addon-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\ServiceAddonController@getServiceAddonList"
+    },
+    {
+        "path": "\/api\/get-wallet-payment-method",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\WalletController@getWalletPaymentMethod"
+    },
+    {
+        "path": "\/api\/create-wallet-stripe-payment",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\WalletController@createWalletStripePayment"
+    },
+    {
+        "path": "\/api\/payment-gateway-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\FrontendSettingController@getPaymentGatewayList"
+    },
+    {
+        "path": "\/api\/payment-gateways",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\PaymentController@paymentGateways"
+    },
+    {
+        "path": "\/api\/update-location",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@updateLocation"
+    },
+    {
+        "path": "\/api\/get-location",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\BookingController@getLocation"
+    },
+    {
+        "path": "\/api\/withdraw-money",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\WalletController@withdrawMoney"
+    },
+    {
+        "path": "\/api\/switch-language",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\API\\User\\UserController@SwitchLang"
+    },
+    {
+        "path": "\/api\/helpdesk-list",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\HelpDeskController@getHelpDeskList"
+    },
+    {
+        "path": "\/api\/helpdesk-save",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HelpDeskController@store"
+    },
+    {
+        "path": "\/api\/helpdesk-closed\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HelpDeskController@closed"
+    },
+    {
+        "path": "\/api\/helpdesk-detail",
+        "methods": [
+            "GET",
+            "HEAD"
+        ],
+        "action": "App\\Http\\Controllers\\API\\HelpDeskController@getHelpDeskDetail"
+    },
+    {
+        "path": "\/api\/helpdesk-activity-save\/{id}",
+        "methods": [
+            "POST"
+        ],
+        "action": "App\\Http\\Controllers\\HelpDeskController@activity"
+    }
+]

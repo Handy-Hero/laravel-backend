@@ -1,0 +1,2315 @@
+{
+    "pagination": {
+        "total_items": 100,
+        "per_page": 10,
+        "currentPage": 1,
+        "totalPages": 10,
+        "from": 1,
+        "to": 10,
+        "next_page": "http://127.0.0.1:8000/api/service-list?page=2",
+        "previous_page": null
+    },
+    "data": [
+        {
+            "id": 110,
+            "name": "Filter Replacement",
+            "category_id": 9,
+            "subcategory_id": 2,
+            "provider_id": 4,
+            "price": 15,
+            "price_format": "$15.00",
+            "type": "fixed",
+            "discount": 0,
+            "duration": "00:30",
+            "status": 1,
+            "description": "Breathe clean air. We promptly replace filters, improving air quality and ensuring efficient circulation throughout your space. 🔩🧑🏻‍🔧🔧🪛",
+            "is_featured": 0,
+            "provider_name": "Felix Harris",
+            "provider_image": "http://127.0.0.1:8000/storage/4/felix.png",
+            "city_id": 10843,
+            "category_name": "AC CoolCare",
+            "subcategory_name": "AC Maintenance and Cleaning",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/225/filter_replacement.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 225,
+                    "url": "http://127.0.0.1:8000/storage/225/filter_replacement.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 703,
+                    "service_id": 110,
+                    "provider_address_id": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 1,
+                        "provider_id": 4,
+                        "address": "North Battleford, SK, Canada",
+                        "latitude": "52.757500",
+                        "longitude": "-108.286110",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:18.000000Z",
+                        "updated_at": "2023-09-04T00:45:18.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 704,
+                    "service_id": 110,
+                    "provider_address_id": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 2,
+                        "provider_id": 4,
+                        "address": "Melville, SK, Canada",
+                        "latitude": "50.930557",
+                        "longitude": "-102.807777",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:46.000000Z",
+                        "updated_at": "2023-09-04T00:45:46.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 705,
+                    "service_id": 110,
+                    "provider_address_id": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 3,
+                        "provider_id": 4,
+                        "address": "Ashland, KY, USA",
+                        "latitude": "38.460304",
+                        "longitude": "-82.649666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:14.000000Z",
+                        "updated_at": "2023-09-04T00:46:14.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 706,
+                    "service_id": 110,
+                    "provider_address_id": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 4,
+                        "provider_id": 4,
+                        "address": "Mont-Saint-Hilaire, QC, Canada",
+                        "latitude": "45.562222",
+                        "longitude": "-73.191666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:49.000000Z",
+                        "updated_at": "2023-09-04T00:46:49.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 707,
+                    "service_id": 110,
+                    "provider_address_id": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 5,
+                        "provider_id": 4,
+                        "address": "Melbourne, Australia",
+                        "latitude": "-37.8142",
+                        "longitude": "144.9631",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:11.000000Z",
+                        "updated_at": "2023-09-04T01:06:55.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 708,
+                    "service_id": 110,
+                    "provider_address_id": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 7,
+                        "provider_id": 4,
+                        "address": "Yorkton, SK, Canada",
+                        "latitude": "51.213890",
+                        "longitude": "102.462776",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:48:08.000000Z",
+                        "updated_at": "2023-09-04T00:48:08.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 709,
+                    "service_id": 110,
+                    "provider_address_id": 31,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 31,
+                        "provider_id": 4,
+                        "address": "Southampton, UK",
+                        "latitude": "50.909698",
+                        "longitude": "-1.404351",
+                        "status": 1,
+                        "created_at": "2023-09-06T05:38:15.000000Z",
+                        "updated_at": "2023-09-06T05:38:15.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": [
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "tue",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "wed",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "thu",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "fri",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sat",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sun",
+                    "slot": [
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00"
+                    ]
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Filter Replacement\",\"description\":\"Breathe clean air. We promptly replace filters, improving air quality and ensuring efficient circulation throughout your space. \�\�\�\�\�\�\‍\�\�\�\�\�\�\"}}"
+        },
+        {
+            "id": 109,
+            "name": "Full Home Sanitization",
+            "category_id": 13,
+            "subcategory_id": 27,
+            "provider_id": 4,
+            "price": 43,
+            "price_format": "$43.00",
+            "type": "fixed",
+            "discount": 0,
+            "duration": "0:25",
+            "status": 1,
+            "description": "Ensure your living space is germ-free. Our professionals perform a thorough sanitization of your entire home, targeting surfaces and areas to promote a clean and safe environment. 🧴",
+            "is_featured": 0,
+            "provider_name": "Felix Harris",
+            "provider_image": "http://127.0.0.1:8000/storage/4/felix.png",
+            "city_id": 10843,
+            "category_name": "Sanitization",
+            "subcategory_name": "Residential Sanitization",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/224/full_home_sanitization_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 224,
+                    "url": "http://127.0.0.1:8000/storage/224/full_home_sanitization_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 698,
+                    "service_id": 109,
+                    "provider_address_id": 31,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 31,
+                        "provider_id": 4,
+                        "address": "Southampton, UK",
+                        "latitude": "50.909698",
+                        "longitude": "-1.404351",
+                        "status": 1,
+                        "created_at": "2023-09-06T05:38:15.000000Z",
+                        "updated_at": "2023-09-06T05:38:15.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 699,
+                    "service_id": 109,
+                    "provider_address_id": 10,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 10,
+                        "provider_id": 4,
+                        "address": "Hazard, KY, USA",
+                        "latitude": "37.250626",
+                        "longitude": "-83.195503",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:49:25.000000Z",
+                        "updated_at": "2023-09-04T00:49:25.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 700,
+                    "service_id": 109,
+                    "provider_address_id": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 6,
+                        "provider_id": 4,
+                        "address": "Brisbane, Australia",
+                        "latitude": "-27.4678",
+                        "longitude": "153.0281",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:36.000000Z",
+                        "updated_at": "2023-09-04T00:47:36.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 701,
+                    "service_id": 109,
+                    "provider_address_id": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 5,
+                        "provider_id": 4,
+                        "address": "Melbourne, Australia",
+                        "latitude": "-37.8142",
+                        "longitude": "144.9631",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:11.000000Z",
+                        "updated_at": "2023-09-04T01:06:55.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 702,
+                    "service_id": 109,
+                    "provider_address_id": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 3,
+                        "provider_id": 4,
+                        "address": "Ashland, KY, USA",
+                        "latitude": "38.460304",
+                        "longitude": "-82.649666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:14.000000Z",
+                        "updated_at": "2023-09-04T00:46:14.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 1,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": [
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "tue",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "wed",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "thu",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "fri",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sat",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sun",
+                    "slot": [
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00"
+                    ]
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Full Home Sanitization\",\"description\":\"Ensure your living space is germ-free. Our professionals perform a thorough sanitization of your entire home, targeting surfaces and areas to promote a clean and safe environment. \�\�\"}}"
+        },
+        {
+            "id": 108,
+            "name": "Fixture Installation",
+            "category_id": 23,
+            "subcategory_id": 24,
+            "provider_id": 15,
+            "price": 18,
+            "price_format": "$18.00",
+            "type": "hourly",
+            "discount": 2,
+            "duration": "00:25",
+            "status": 1,
+            "description": "Upgrade your fixtures with ease. Our plumbers install faucets, sinks, and other fixtures, enhancing functionality and aesthetics. 🧑🏻‍🔧🔧🪛",
+            "is_featured": 0,
+            "provider_name": "Jorge Perez",
+            "provider_image": "http://127.0.0.1:8000/storage/13/jorge.png",
+            "city_id": 44996,
+            "category_name": "Plumber",
+            "subcategory_name": "Installation and Upgrades",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/223/fixture_installation_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 223,
+                    "url": "http://127.0.0.1:8000/storage/223/fixture_installation_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 710,
+                    "service_id": 108,
+                    "provider_address_id": 25,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 25,
+                        "provider_id": 15,
+                        "address": "New Bedford, MA, USA",
+                        "latitude": "41.638409",
+                        "longitude": "-70.941208",
+                        "status": 1,
+                        "created_at": "2023-09-04T01:16:26.000000Z",
+                        "updated_at": "2023-09-04T01:16:26.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 711,
+                    "service_id": 108,
+                    "provider_address_id": 26,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 26,
+                        "provider_id": 15,
+                        "address": "Greenbelt, MD, USA",
+                        "latitude": "38.998318",
+                        "longitude": "-76.896332",
+                        "status": 1,
+                        "created_at": "2023-09-04T01:16:53.000000Z",
+                        "updated_at": "2023-09-04T01:16:53.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": []
+                },
+                {
+                    "day": "tue",
+                    "slot": []
+                },
+                {
+                    "day": "wed",
+                    "slot": []
+                },
+                {
+                    "day": "thu",
+                    "slot": []
+                },
+                {
+                    "day": "fri",
+                    "slot": []
+                },
+                {
+                    "day": "sat",
+                    "slot": []
+                },
+                {
+                    "day": "sun",
+                    "slot": []
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Fixture Installation\",\"description\":\"Upgrade your fixtures with ease. Our plumbers install faucets, sinks, and other fixtures, enhancing functionality and aesthetics. \�\�\�\�\‍\�\�\�\�\�\�\"}}"
+        },
+        {
+            "id": 107,
+            "name": "Office Cleaning",
+            "category_id": 24,
+            "subcategory_id": 7,
+            "provider_id": 4,
+            "price": 32,
+            "price_format": "$32.00",
+            "type": "fixed",
+            "discount": 0,
+            "duration": "00:30",
+            "status": 1,
+            "description": "Maintain a productive workspace with our office cleaning service. Our professional cleaners ensure your office is organized, sanitized, and conducive to a positive working environment. 🧽🧼",
+            "is_featured": 0,
+            "provider_name": "Felix Harris",
+            "provider_image": "http://127.0.0.1:8000/storage/4/felix.png",
+            "city_id": 10843,
+            "category_name": "Cleaning",
+            "subcategory_name": "House & Office Cleaning",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/222/office_cleaning_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 222,
+                    "url": "http://127.0.0.1:8000/storage/222/office_cleaning_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 683,
+                    "service_id": 107,
+                    "provider_address_id": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 1,
+                        "provider_id": 4,
+                        "address": "North Battleford, SK, Canada",
+                        "latitude": "52.757500",
+                        "longitude": "-108.286110",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:18.000000Z",
+                        "updated_at": "2023-09-04T00:45:18.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 684,
+                    "service_id": 107,
+                    "provider_address_id": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 2,
+                        "provider_id": 4,
+                        "address": "Melville, SK, Canada",
+                        "latitude": "50.930557",
+                        "longitude": "-102.807777",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:46.000000Z",
+                        "updated_at": "2023-09-04T00:45:46.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 685,
+                    "service_id": 107,
+                    "provider_address_id": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 3,
+                        "provider_id": 4,
+                        "address": "Ashland, KY, USA",
+                        "latitude": "38.460304",
+                        "longitude": "-82.649666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:14.000000Z",
+                        "updated_at": "2023-09-04T00:46:14.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 686,
+                    "service_id": 107,
+                    "provider_address_id": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 5,
+                        "provider_id": 4,
+                        "address": "Melbourne, Australia",
+                        "latitude": "-37.8142",
+                        "longitude": "144.9631",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:11.000000Z",
+                        "updated_at": "2023-09-04T01:06:55.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 687,
+                    "service_id": 107,
+                    "provider_address_id": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 6,
+                        "provider_id": 4,
+                        "address": "Brisbane, Australia",
+                        "latitude": "-27.4678",
+                        "longitude": "153.0281",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:36.000000Z",
+                        "updated_at": "2023-09-04T00:47:36.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 688,
+                    "service_id": 107,
+                    "provider_address_id": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 8,
+                        "provider_id": 4,
+                        "address": "Morgan City, LA, USA",
+                        "latitude": "29.706043",
+                        "longitude": "-91.206917",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:48:37.000000Z",
+                        "updated_at": "2023-09-04T00:48:37.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 689,
+                    "service_id": 107,
+                    "provider_address_id": 31,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 31,
+                        "provider_id": 4,
+                        "address": "Southampton, UK",
+                        "latitude": "50.909698",
+                        "longitude": "-1.404351",
+                        "status": 1,
+                        "created_at": "2023-09-06T05:38:15.000000Z",
+                        "updated_at": "2023-09-06T05:38:15.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": [
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "tue",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "wed",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "thu",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "fri",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sat",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sun",
+                    "slot": [
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00"
+                    ]
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 1,
+            "advance_payment_amount": 2,
+            "translations":"{\"en\":{\"name\":\"Office Cleaning\",\"description\":\"Maintain a productive workspace with our office cleaning service. Our professional cleaners ensure your office is organized, sanitized, and conducive to a positive working environment. \�\�\�\�\"}}"
+        },
+        {
+            "id": 106,
+            "name": "Electrical Wiring Installation",
+            "category_id": 25,
+            "subcategory_id": 11,
+            "provider_id": 15,
+            "price": 26,
+            "price_format": "$26.00",
+            "type": "fixed",
+            "discount": 2,
+            "duration": "00:20",
+            "status": 1,
+            "description": "Our skilled electricians ensure safe and efficient wiring installation, powering your space with precision and reliability. 🧑🏻‍🔧🔧🪛🛠️",
+            "is_featured": 0,
+            "provider_name": "Jorge Perez",
+            "provider_image": "http://127.0.0.1:8000/storage/13/jorge.png",
+            "city_id": 44996,
+            "category_name": "Electrician",
+            "subcategory_name": "Wiring and Installation",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/221/electrical_wiring_installation_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 221,
+                    "url": "http://127.0.0.1:8000/storage/221/electrical_wiring_installation_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 674,
+                    "service_id": 106,
+                    "provider_address_id": 25,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 25,
+                        "provider_id": 15,
+                        "address": "New Bedford, MA, USA",
+                        "latitude": "41.638409",
+                        "longitude": "-70.941208",
+                        "status": 1,
+                        "created_at": "2023-09-04T01:16:26.000000Z",
+                        "updated_at": "2023-09-04T01:16:26.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 675,
+                    "service_id": 106,
+                    "provider_address_id": 26,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 26,
+                        "provider_id": 15,
+                        "address": "Greenbelt, MD, USA",
+                        "latitude": "38.998318",
+                        "longitude": "-76.896332",
+                        "status": 1,
+                        "created_at": "2023-09-04T01:16:53.000000Z",
+                        "updated_at": "2023-09-04T01:16:53.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": []
+                },
+                {
+                    "day": "tue",
+                    "slot": []
+                },
+                {
+                    "day": "wed",
+                    "slot": []
+                },
+                {
+                    "day": "thu",
+                    "slot": []
+                },
+                {
+                    "day": "fri",
+                    "slot": []
+                },
+                {
+                    "day": "sat",
+                    "slot": []
+                },
+                {
+                    "day": "sun",
+                    "slot": []
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Electrical Wiring Installation\",\"description\":\"Our skilled electricians ensure safe and efficient wiring installation, powering your space with precision and reliability. \�\�\�\�\‍\�\�\�\�\�\�\�\�\️\"}}"
+        },
+        {
+            "id": 105,
+            "name": "Custom Cake Creations",
+            "category_id": 22,
+            "subcategory_id": 45,
+            "provider_id": 4,
+            "price": 35,
+            "price_format": "$35.00",
+            "type": "hourly",
+            "discount": 4,
+            "duration": "00:25",
+            "status": 1,
+            "description": "Expert bakers create bespoke cakes for special occasions, turning your ideas into delicious reality. 🍰🧁🥧",
+            "is_featured": 0,
+            "provider_name": "Felix Harris",
+            "provider_image": "http://127.0.0.1:8000/storage/4/felix.png",
+            "city_id": 10843,
+            "category_name": "Cooking",
+            "subcategory_name": "Baking and Pastry",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/220/custom_cake_creations_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 220,
+                    "url": "http://127.0.0.1:8000/storage/220/custom_cake_creations_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 666,
+                    "service_id": 105,
+                    "provider_address_id": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 1,
+                        "provider_id": 4,
+                        "address": "North Battleford, SK, Canada",
+                        "latitude": "52.757500",
+                        "longitude": "-108.286110",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:18.000000Z",
+                        "updated_at": "2023-09-04T00:45:18.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 667,
+                    "service_id": 105,
+                    "provider_address_id": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 3,
+                        "provider_id": 4,
+                        "address": "Ashland, KY, USA",
+                        "latitude": "38.460304",
+                        "longitude": "-82.649666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:14.000000Z",
+                        "updated_at": "2023-09-04T00:46:14.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 668,
+                    "service_id": 105,
+                    "provider_address_id": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 4,
+                        "provider_id": 4,
+                        "address": "Mont-Saint-Hilaire, QC, Canada",
+                        "latitude": "45.562222",
+                        "longitude": "-73.191666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:49.000000Z",
+                        "updated_at": "2023-09-04T00:46:49.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 669,
+                    "service_id": 105,
+                    "provider_address_id": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 5,
+                        "provider_id": 4,
+                        "address": "Melbourne, Australia",
+                        "latitude": "-37.8142",
+                        "longitude": "144.9631",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:11.000000Z",
+                        "updated_at": "2023-09-04T01:06:55.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 670,
+                    "service_id": 105,
+                    "provider_address_id": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 6,
+                        "provider_id": 4,
+                        "address": "Brisbane, Australia",
+                        "latitude": "-27.4678",
+                        "longitude": "153.0281",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:36.000000Z",
+                        "updated_at": "2023-09-04T00:47:36.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 671,
+                    "service_id": 105,
+                    "provider_address_id": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 8,
+                        "provider_id": 4,
+                        "address": "Morgan City, LA, USA",
+                        "latitude": "29.706043",
+                        "longitude": "-91.206917",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:48:37.000000Z",
+                        "updated_at": "2023-09-04T00:48:37.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 673,
+                    "service_id": 105,
+                    "provider_address_id": 31,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 31,
+                        "provider_id": 4,
+                        "address": "Southampton, UK",
+                        "latitude": "50.909698",
+                        "longitude": "-1.404351",
+                        "status": 1,
+                        "created_at": "2023-09-06T05:38:15.000000Z",
+                        "updated_at": "2023-09-06T05:38:15.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": [
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "tue",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "wed",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "thu",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "fri",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sat",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sun",
+                    "slot": [
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00"
+                    ]
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Custom Cake Creations\",\"description\":\"Expert bakers create bespoke cakes for special occasions, turning your ideas into delicious reality. \�\�\�\�\�\�\"}}"
+        },
+        {
+            "id": 104,
+            "name": "Seam Repair and Reinforcement",
+            "category_id": 10,
+            "subcategory_id": 33,
+            "provider_id": 4,
+            "price": 45,
+            "price_format": "$45.00",
+            "type": "hourly",
+            "discount": 0,
+            "duration": "00:25",
+            "status": 1,
+            "description": "Restore and strengthen seams for extended garment life. Our tailors skillfully mend and reinforce stitching. 🪡🧵👗🥻",
+            "is_featured": 1,
+            "provider_name": "Felix Harris",
+            "provider_image": "http://127.0.0.1:8000/storage/4/felix.png",
+            "city_id": 10843,
+            "category_name": "Tailor",
+            "subcategory_name": "Clothing Alterations",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/219/seam_repair_and_reinforcement_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 219,
+                    "url": "http://127.0.0.1:8000/storage/219/seam_repair_and_reinforcement_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 722,
+                    "service_id": 104,
+                    "provider_address_id": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 1,
+                        "provider_id": 4,
+                        "address": "North Battleford, SK, Canada",
+                        "latitude": "52.757500",
+                        "longitude": "-108.286110",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:18.000000Z",
+                        "updated_at": "2023-09-04T00:45:18.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 723,
+                    "service_id": 104,
+                    "provider_address_id": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 4,
+                        "provider_id": 4,
+                        "address": "Mont-Saint-Hilaire, QC, Canada",
+                        "latitude": "45.562222",
+                        "longitude": "-73.191666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:49.000000Z",
+                        "updated_at": "2023-09-04T00:46:49.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 724,
+                    "service_id": 104,
+                    "provider_address_id": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 5,
+                        "provider_id": 4,
+                        "address": "Melbourne, Australia",
+                        "latitude": "-37.8142",
+                        "longitude": "144.9631",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:11.000000Z",
+                        "updated_at": "2023-09-04T01:06:55.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 725,
+                    "service_id": 104,
+                    "provider_address_id": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 8,
+                        "provider_id": 4,
+                        "address": "Morgan City, LA, USA",
+                        "latitude": "29.706043",
+                        "longitude": "-91.206917",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:48:37.000000Z",
+                        "updated_at": "2023-09-04T00:48:37.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 726,
+                    "service_id": 104,
+                    "provider_address_id": 31,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 31,
+                        "provider_id": 4,
+                        "address": "Southampton, UK",
+                        "latitude": "50.909698",
+                        "longitude": "-1.404351",
+                        "status": 1,
+                        "created_at": "2023-09-06T05:38:15.000000Z",
+                        "updated_at": "2023-09-06T05:38:15.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": [
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "tue",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "wed",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "thu",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "fri",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sat",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sun",
+                    "slot": [
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00"
+                    ]
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Seam Repair and Reinforcement\",\"description\":\"Restore and strengthen seams for extended garment life. Our tailors skillfully mend and reinforce stitching. \�\�\�\�\�\�\�\�\"}}"
+        },
+        {
+            "id": 103,
+            "name": "Smart TV Integration",
+            "category_id": 11,
+            "subcategory_id": 32,
+            "provider_id": 15,
+            "price": 25,
+            "price_format": "$25.00",
+            "type": "fixed",
+            "discount": 0,
+            "duration": "00:25",
+            "status": 1,
+            "description": "Streamlined entertainment. Our professionals integrate smart TVs, making it easy to access your favorite shows, movies, and streaming services. 🧑🏻‍🔧📺",
+            "is_featured": 0,
+            "provider_name": "Jorge Perez",
+            "provider_image": "http://127.0.0.1:8000/storage/13/jorge.png",
+            "city_id": 44996,
+            "category_name": "Smart Home",
+            "subcategory_name": "Entertainment and Media",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/218/smart_tv_integration_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 218,
+                    "url": "http://127.0.0.1:8000/storage/218/smart_tv_integration_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 638,
+                    "service_id": 103,
+                    "provider_address_id": 25,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 25,
+                        "provider_id": 15,
+                        "address": "New Bedford, MA, USA",
+                        "latitude": "41.638409",
+                        "longitude": "-70.941208",
+                        "status": 1,
+                        "created_at": "2023-09-04T01:16:26.000000Z",
+                        "updated_at": "2023-09-04T01:16:26.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 639,
+                    "service_id": 103,
+                    "provider_address_id": 26,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 26,
+                        "provider_id": 15,
+                        "address": "Greenbelt, MD, USA",
+                        "latitude": "38.998318",
+                        "longitude": "-76.896332",
+                        "status": 1,
+                        "created_at": "2023-09-04T01:16:53.000000Z",
+                        "updated_at": "2023-09-04T01:16:53.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": []
+                },
+                {
+                    "day": "tue",
+                    "slot": []
+                },
+                {
+                    "day": "wed",
+                    "slot": []
+                },
+                {
+                    "day": "thu",
+                    "slot": []
+                },
+                {
+                    "day": "fri",
+                    "slot": []
+                },
+                {
+                    "day": "sat",
+                    "slot": []
+                },
+                {
+                    "day": "sun",
+                    "slot": []
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Smart TV Integration\",\"description\":\"Streamlined entertainment. Our professionals integrate smart TVs, making it easy to access your favorite shows, movies, and streaming services. \�\�\�\�\‍\�\�\�\�\"}}"
+        },
+        {
+            "id": 102,
+            "name": "Exfoliation and Peels",
+            "category_id": 14,
+            "subcategory_id": 26,
+            "provider_id": 4,
+            "price": 28,
+            "price_format": "$28.00",
+            "type": "fixed",
+            "discount": 0,
+            "duration": "00:20",
+            "status": 1,
+            "description": "Renew your skin's glow. Our exfoliation and peel treatments remove dead skin cells, revealing smoother and more youthful skin. 🧖‍♀️",
+            "is_featured": 0,
+            "provider_name": "Felix Harris",
+            "provider_image": "http://127.0.0.1:8000/storage/4/felix.png",
+            "city_id": 10843,
+            "category_name": "Salon",
+            "subcategory_name": "Skin Care and Facials",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/217/exfoliation_and_peels_1.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 217,
+                    "url": "http://127.0.0.1:8000/storage/217/exfoliation_and_peels_1.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 640,
+                    "service_id": 102,
+                    "provider_address_id": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 2,
+                        "provider_id": 4,
+                        "address": "Melville, SK, Canada",
+                        "latitude": "50.930557",
+                        "longitude": "-102.807777",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:46.000000Z",
+                        "updated_at": "2023-09-04T00:45:46.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 641,
+                    "service_id": 102,
+                    "provider_address_id": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 4,
+                        "provider_id": 4,
+                        "address": "Mont-Saint-Hilaire, QC, Canada",
+                        "latitude": "45.562222",
+                        "longitude": "-73.191666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:49.000000Z",
+                        "updated_at": "2023-09-04T00:46:49.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 642,
+                    "service_id": 102,
+                    "provider_address_id": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 5,
+                        "provider_id": 4,
+                        "address": "Melbourne, Australia",
+                        "latitude": "-37.8142",
+                        "longitude": "144.9631",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:47:11.000000Z",
+                        "updated_at": "2023-09-04T01:06:55.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 643,
+                    "service_id": 102,
+                    "provider_address_id": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 8,
+                        "provider_id": 4,
+                        "address": "Morgan City, LA, USA",
+                        "latitude": "29.706043",
+                        "longitude": "-91.206917",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:48:37.000000Z",
+                        "updated_at": "2023-09-04T00:48:37.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 644,
+                    "service_id": 102,
+                    "provider_address_id": 10,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 10,
+                        "provider_id": 4,
+                        "address": "Hazard, KY, USA",
+                        "latitude": "37.250626",
+                        "longitude": "-83.195503",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:49:25.000000Z",
+                        "updated_at": "2023-09-04T00:49:25.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 645,
+                    "service_id": 102,
+                    "provider_address_id": 31,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 31,
+                        "provider_id": 4,
+                        "address": "Southampton, UK",
+                        "latitude": "50.909698",
+                        "longitude": "-1.404351",
+                        "status": 1,
+                        "created_at": "2023-09-06T05:38:15.000000Z",
+                        "updated_at": "2023-09-06T05:38:15.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": [
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "tue",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "wed",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "thu",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "fri",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sat",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sun",
+                    "slot": [
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00"
+                    ]
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Exfoliation and Peels\",\"description\":\"Renew your skin's glow. Our exfoliation and peel treatments remove dead skin cells, revealing smoother and more youthful skin. \�\�\‍\♀\️\"}}"
+        },
+        {
+            "id": 101,
+            "name": "Leak Repair",
+            "category_id": 23,
+            "subcategory_id": 23,
+            "provider_id": 4,
+            "price": 35,
+            "price_format": "$35.00",
+            "type": "fixed",
+            "discount": 0,
+            "duration": "00:30",
+            "status": 1,
+            "description": "Our skilled plumbers fix leaks promptly, preventing water wastage and potential water damage. 🧑🏻‍🔧🔧🪛",
+            "is_featured": 0,
+            "provider_name": "Felix Harris",
+            "provider_image": "http://127.0.0.1:8000/storage/4/felix.png",
+            "city_id": 10843,
+            "category_name": "Plumber",
+            "subcategory_name": "Plumbing Repairs",
+            "attchments": [
+                "http://127.0.0.1:8000/storage/216/leak_repair_2.png"
+            ],
+            "attchments_array": [
+                {
+                    "id": 216,
+                    "url": "http://127.0.0.1:8000/storage/216/leak_repair_2.png"
+                }
+            ],
+            "total_review": 0,
+            "total_rating": 0,
+            "is_favourite": 0,
+            "service_address_mapping": [
+                {
+                    "id": 525,
+                    "service_id": 101,
+                    "provider_address_id": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 1,
+                        "provider_id": 4,
+                        "address": "North Battleford, SK, Canada",
+                        "latitude": "52.757500",
+                        "longitude": "-108.286110",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:18.000000Z",
+                        "updated_at": "2023-09-04T00:45:18.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 526,
+                    "service_id": 101,
+                    "provider_address_id": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 2,
+                        "provider_id": 4,
+                        "address": "Melville, SK, Canada",
+                        "latitude": "50.930557",
+                        "longitude": "-102.807777",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:45:46.000000Z",
+                        "updated_at": "2023-09-04T00:45:46.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 527,
+                    "service_id": 101,
+                    "provider_address_id": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 3,
+                        "provider_id": 4,
+                        "address": "Ashland, KY, USA",
+                        "latitude": "38.460304",
+                        "longitude": "-82.649666",
+                        "status": 1,
+                        "created_at": "2023-09-04T00:46:14.000000Z",
+                        "updated_at": "2023-09-04T00:46:14.000000Z",
+                        "deleted_at": null
+                    }
+                },
+                {
+                    "id": 529,
+                    "service_id": 101,
+                    "provider_address_id": 31,
+                    "created_at": null,
+                    "updated_at": null,
+                    "provider_address_mapping": {
+                        "id": 31,
+                        "provider_id": 4,
+                        "address": "Southampton, UK",
+                        "latitude": "50.909698",
+                        "longitude": "-1.404351",
+                        "status": 1,
+                        "created_at": "2023-09-06T05:38:15.000000Z",
+                        "updated_at": "2023-09-06T05:38:15.000000Z",
+                        "deleted_at": null
+                    }
+                }
+            ],
+            "attchment_extension": true,
+            "deleted_at": null,
+            "is_slot": 0,
+            "slots": [
+                {
+                    "day": "mon",
+                    "slot": [
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "tue",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "wed",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "thu",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "fri",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sat",
+                    "slot": [
+                        "07:00:00",
+                        "08:00:00",
+                        "09:00:00",
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00",
+                        "21:00:00",
+                        "22:00:00"
+                    ]
+                },
+                {
+                    "day": "sun",
+                    "slot": [
+                        "10:00:00",
+                        "11:00:00",
+                        "12:00:00",
+                        "13:00:00",
+                        "14:00:00",
+                        "15:00:00",
+                        "16:00:00",
+                        "17:00:00",
+                        "18:00:00",
+                        "19:00:00",
+                        "20:00:00"
+                    ]
+                }
+            ],
+            "visit_type": "on_site",
+            "is_enable_advance_payment": 0,
+            "advance_payment_amount": 0,
+            "translations":"{\"en\":{\"name\":\"Leak Repair\",\"description\":\"Our skilled plumbers fix leaks promptly, preventing water wastage and potential water damage. \�\�\�\�\‍\�\�\�\�\�\�\"}}"
+        }
+    ],
+    "user_services": null,
+    "max": 45,
+    "min": 15
+}

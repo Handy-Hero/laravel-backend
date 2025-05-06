@@ -1,0 +1,257 @@
+{
+  "info": {
+    "name": "API Collection",
+    "description": "Collection of API routes for the application",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Register User",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["register"]
+            }
+          }
+        },
+        {
+          "name": "Login User",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["login"]
+            }
+          }
+        },
+        {
+          "name": "Password Reset",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/forgot-password",
+              "host": ["{{baseUrl}}"],
+              "path": ["forgot-password"]
+            }
+          }
+        },
+        {
+          "name": "Verify Email",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/verify/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["verify", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Logout User",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/logout",
+              "host": ["{{baseUrl}}"],
+              "path": ["logout"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "API",
+      "item": [
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/category-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["category-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/blog-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["blog-list"]
+            }
+          }
+        },
+        {
+          "name": "User Registration",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["register"]
+            }
+          }
+        },
+        {
+          "name": "User Login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["login"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "item": [
+        {
+          "name": "Get Home",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/",
+              "host": ["{{baseUrl}}"],
+              "path": [""]
+            }
+          }
+        },
+        {
+          "name": "Get Privacy Policy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/privacy-policy",
+              "host": ["{{baseUrl}}"],
+              "path": ["privacy-policy"]
+            }
+          }
+        },
+        {
+          "name": "Get Terms and Conditions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/term-conditions",
+              "host": ["{{baseUrl}}"],
+              "path": ["term-conditions"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Detail",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-detail/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-detail", "{id}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin API",
+      "item": [
+        {
+          "name": "Get Admin Dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/admin-dashboard",
+              "host": ["{{baseUrl}}"],
+              "path": ["admin-dashboard"]
+            }
+          }
+        },
+        {
+          "name": "Save Category",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/category-save",
+              "host": ["{{baseUrl}}"],
+              "path": ["category-save"]
+            }
+          }
+        },
+        {
+          "name": "Delete Category",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/category-delete/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["category-delete", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get User List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/get-user-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["get-user-list"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

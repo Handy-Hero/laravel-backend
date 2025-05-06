@@ -1,0 +1,1362 @@
+{
+  "info": {
+    "name": "API Collection V2",
+    "description": "Collection of API routes for the application including all routes from api.php",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Register User",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["register"]
+            }
+          }
+        },
+        {
+          "name": "Login User",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["login"]
+            }
+          }
+        },
+        {
+          "name": "Password Reset",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/forgot-password",
+              "host": ["{{baseUrl}}"],
+              "path": ["forgot-password"]
+            }
+          }
+        },
+        {
+          "name": "Verify Email",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/verify/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["verify", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Logout User",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/logout",
+              "host": ["{{baseUrl}}"],
+              "path": ["logout"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "API",
+      "item": [
+        {
+          "name": "Get Category List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/category-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["category-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Subcategory List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/subcategory-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["subcategory-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Service List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Type List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/type-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["type-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Blog List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/blog-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["blog-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Landing Page List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/landing-page-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["landing-page-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Blog Detail",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/blog-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["blog-detail"]
+            }
+          }
+        },
+        {
+          "name": "Post Country List",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/country-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["country-list"]
+            }
+          }
+        },
+        {
+          "name": "Post State List",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/state-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["state-list"]
+            }
+          }
+        },
+        {
+          "name": "Post City List",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/city-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["city-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Search List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/search-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["search-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Slider List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/slider-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["slider-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Top Rated Service",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/top-rated-service",
+              "host": ["{{baseUrl}}"],
+              "path": ["top-rated-service"]
+            }
+          }
+        },
+        {
+          "name": "Get Coupon List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/coupon-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["coupon-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Configurations",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/configurations",
+              "host": ["{{baseUrl}}"],
+              "path": ["configurations"]
+            }
+          }
+        },
+        {
+          "name": "Get Firebase Detail",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/firebase-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["firebase-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get User",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/user",
+              "host": ["{{baseUrl}}"],
+              "path": ["user"]
+            }
+          }
+        },
+        {
+          "name": "Post Register",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["register"]
+            }
+          }
+        },
+        {
+          "name": "Post Check Username",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/check-username",
+              "host": ["{{baseUrl}}"],
+              "path": ["check-username"]
+            }
+          }
+        },
+        {
+          "name": "Post Login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["login"]
+            }
+          }
+        },
+        {
+          "name": "Post Forgot Password",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/forgot-password",
+              "host": ["{{baseUrl}}"],
+              "path": ["forgot-password"]
+            }
+          }
+        },
+        {
+          "name": "Post Social Login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/social-login",
+              "host": ["{{baseUrl}}"],
+              "path": ["social-login"]
+            }
+          }
+        },
+        {
+          "name": "Post Contact Us",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/contact-us",
+              "host": ["{{baseUrl}}"],
+              "path": ["contact-us"]
+            }
+          }
+        },
+        {
+          "name": "Post User Email Verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/user-email-verify",
+              "host": ["{{baseUrl}}"],
+              "path": ["user-email-verify"]
+            }
+          }
+        },
+        {
+          "name": "Get Dashboard Detail",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/dashboard-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["dashboard-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Rating List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-rating-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-rating-list"]
+            }
+          }
+        },
+        {
+          "name": "Get User Detail",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/user-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["user-detail"]
+            }
+          }
+        },
+        {
+          "name": "Post Service Detail",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get User List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/user-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["user-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking Status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/booking-status",
+              "host": ["{{baseUrl}}"],
+              "path": ["booking-status"]
+            }
+          }
+        },
+        {
+          "name": "Post Handyman Reviews",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-reviews",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-reviews"]
+            }
+          }
+        },
+        {
+          "name": "Post Service Reviews",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-reviews",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-reviews"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job Status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/post-job-status",
+              "host": ["{{baseUrl}}"],
+              "path": ["post-job-status"]
+            }
+          }
+        },
+        {
+          "name": "Post Service Save",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-save",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-save"]
+            }
+          }
+        },
+        {
+          "name": "Post Service Delete",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/service-delete/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["service-delete", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Post Booking Save",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/booking-save",
+              "host": ["{{baseUrl}}"],
+              "path": ["booking-save"]
+            }
+          }
+        },
+        {
+          "name": "Post Get Payment Method",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/get-payment-method",
+              "host": ["{{baseUrl}}"],
+              "path": ["get-payment-method"]
+            }
+          }
+        },
+        {
+          "name": "Post Create Stripe Payment",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/create-stripe-payment",
+              "host": ["{{baseUrl}}"],
+              "path": ["create-stripe-payment"]
+            }
+          }
+        },
+        {
+          "name": "Post Booking Update",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/booking-update",
+              "host": ["{{baseUrl}}"],
+              "path": ["booking-update"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provider-dashboard",
+              "host": ["{{baseUrl}}"],
+              "path": ["provider-dashboard"]
+            }
+          }
+        },
+        {
+          "name": "Get Admin Dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/admin-dashboard",
+              "host": ["{{baseUrl}}"],
+              "path": ["admin-dashboard"]
+            }
+          }
+        },
+        {
+          "name": "Get Booking List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/booking-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["booking-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Booking Detail",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/booking-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["booking-detail"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Booking Rating",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-booking-rating",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-booking-rating"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Booking Rating",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/delete-booking-rating",
+              "host": ["{{baseUrl}}"],
+              "path": ["delete-booking-rating"]
+            }
+          }
+        },
+        {
+          "name": "Get User Ratings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/get-user-ratings",
+              "host": ["{{baseUrl}}"],
+              "path": ["get-user-ratings"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Favourite",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-favourite",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-favourite"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Favourite",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/delete-favourite",
+              "host": ["{{baseUrl}}"],
+              "path": ["delete-favourite"]
+            }
+          }
+        },
+        {
+          "name": "Get User Favourite Service",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/user-favourite-service",
+              "host": ["{{baseUrl}}"],
+              "path": ["user-favourite-service"]
+            }
+          }
+        },
+        {
+          "name": "Post Booking Action",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/booking-action",
+              "host": ["{{baseUrl}}"],
+              "path": ["booking-action"]
+            }
+          }
+        },
+        {
+          "name": "Post Booking Assigned",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/booking-assigned",
+              "host": ["{{baseUrl}}"],
+              "path": ["booking-assigned"]
+            }
+          }
+        },
+        {
+          "name": "Post User Update Status",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/user-update-status",
+              "host": ["{{baseUrl}}"],
+              "path": ["user-update-status"]
+            }
+          }
+        },
+        {
+          "name": "Post Change Password",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/change-password",
+              "host": ["{{baseUrl}}"],
+              "path": ["change-password"]
+            }
+          }
+        },
+        {
+          "name": "Post Update Profile",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/update-profile",
+              "host": ["{{baseUrl}}"],
+              "path": ["update-profile"]
+            }
+          }
+        },
+        {
+          "name": "Post Notification List",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notification-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["notification-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Remove File",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/remove-file",
+              "host": ["{{baseUrl}}"],
+              "path": ["remove-file"]
+            }
+          }
+        },
+        {
+          "name": "Get Logout",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/logout",
+              "host": ["{{baseUrl}}"],
+              "path": ["logout"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Payment",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-payment",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-payment"]
+            }
+          }
+        },
+        {
+          "name": "Get Payment List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/payment-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["payment-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Transfer Payment",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/transfer-payment",
+              "host": ["{{baseUrl}}"],
+              "path": ["transfer-payment"]
+            }
+          }
+        },
+        {
+          "name": "Get Payment History",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/payment-history",
+              "host": ["{{baseUrl}}"],
+              "path": ["payment-history"]
+            }
+          }
+        },
+        {
+          "name": "Get Cash Detail",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/cash-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["cash-detail"]
+            }
+          }
+        },
+        {
+          "name": "Get User Bank Detail",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/user-bank-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["user-bank-detail"]
+            }
+          }
+        },
+        {
+          "name": "Post Default Bank",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/default-bank",
+              "host": ["{{baseUrl}}"],
+              "path": ["default-bank"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Bank",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-bank",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-bank"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Bank",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/delete-bank/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["delete-bank", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Post Provider Payout",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provider-payout",
+              "host": ["{{baseUrl}}"],
+              "path": ["provider-payout"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Earning List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-earning-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-earning-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Handyman Payout Save",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-payout-save",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-payout-save"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Provider Address",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-provideraddress",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-provideraddress"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Address List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provideraddress-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["provideraddress-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Provider Address",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provideraddress-delete/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["provideraddress-delete", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Handyman Rating",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-handyman-rating",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-handyman-rating"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Handyman Rating",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/delete-handyman-rating",
+              "host": ["{{baseUrl}}"],
+              "path": ["delete-handyman-rating"]
+            }
+          }
+        },
+        {
+          "name": "Get Document List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/document-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["document-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Document List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provider-document-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["provider-document-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Provider Document Save",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provider-document-save",
+              "host": ["{{baseUrl}}"],
+              "path": ["provider-document-save"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Provider Document",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provider-document-delete/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["provider-document-delete", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Post Provider Document Action",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provider-document-action",
+              "host": ["{{baseUrl}}"],
+              "path": ["provider-document-action"]
+            }
+          }
+        },
+        {
+          "name": "Get Tax List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/tax-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["tax-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-dashboard",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-dashboard"]
+            }
+          }
+        },
+        {
+          "name": "Post Customer Booking Rating",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/customer-booking-rating",
+              "host": ["{{baseUrl}}"],
+              "path": ["customer-booking-rating"]
+            }
+          }
+        },
+        {
+          "name": "Post Handyman Delete",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-delete/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-delete", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Post Handyman Action",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-action",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-action"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Payout List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/provider-payout-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["provider-payout-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Handyman Payout List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-payout-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-payout-list"]
+            }
+          }
+        },
+        {
+          "name": "Get Plan List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/plan-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["plan-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Subscription",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-subscription",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-subscription"]
+            }
+          }
+        },
+        {
+          "name": "Post Cancel Subscription",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/cancel-subscription",
+              "host": ["{{baseUrl}}"],
+              "path": ["cancel-subscription"]
+            }
+          }
+        },
+        {
+          "name": "Get Subscription History",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/subscription-history",
+              "host": ["{{baseUrl}}"],
+              "path": ["subscription-history"]
+            }
+          }
+        },
+        {
+          "name": "Get Wallet History",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/wallet-history",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallet-history"]
+            }
+          }
+        },
+        {
+          "name": "Post Wallet Top Up",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/wallet-top-up",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallet-top-up"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Service Proof",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-service-proof",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-service-proof"]
+            }
+          }
+        },
+        {
+          "name": "Post Handyman Update Available Status",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/handyman-update-available-status",
+              "host": ["{{baseUrl}}"],
+              "path": ["handyman-update-available-status"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete User Account",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/delete-user-account",
+              "host": ["{{baseUrl}}"],
+              "path": ["delete-user-account"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Account",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/delete-account",
+              "host": ["{{baseUrl}}"],
+              "path": ["delete-account"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Post Job",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-post-job",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-post-job"]
+            }
+          }
+        },
+        {
+          "name": "Post Delete Post Job",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/post-job-delete/{id}",
+              "host": ["{{baseUrl}}"],
+              "path": ["post-job-delete", "{id}"]
+            }
+          }
+        },
+        {
+          "name": "Get Post Job",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/get-post-job",
+              "host": ["{{baseUrl}}"],
+              "path": ["get-post-job"]
+            }
+          }
+        },
+        {
+          "name": "Post Get Post Job Detail",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/get-post-job-detail",
+              "host": ["{{baseUrl}}"],
+              "path": ["get-post-job-detail"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Bid",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-bid",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-bid"]
+            }
+          }
+        },
+        {
+          "name": "Get Bid List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/get-bid-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["get-bid-list"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Provider Slot",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/save-provider-slot",
+              "host": ["{{baseUrl}}"],
+              "path": ["save-provider-slot"]
+            }
+          }
+        },
+        {
+          "name": "Get Provider Slot",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/get-provider-slot",
+              "host": ["{{baseUrl}}"],
+              "path": ["get-provider-slot"]
+            }
+          }
+        },
+        {
+          "name": "Post Save Service Package",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/package-save",
+              "host": ["{{baseUrl}}"],
+              "path": ["package-save"]
+            }
+          }
+        },
+        {
+          "name": "Get Service Package List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/package-list",
+              "host": ["{{baseUrl}}"],
+              "path": ["package-list"]
+            }
+          }
+        }
+      ]
+    }
+  ]
